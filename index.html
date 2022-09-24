@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador</h1>
+    </header>
+<main class="contenedor-principal">
+    <section>
+        <h2>Encripta tu texto</h2>
+        <div class="box-style">
+            <textarea name="myTextarea" id="texto-encriptar" placeholder="Encripta tu texto" minlength="10" maxlength="500" required></textarea>
+            <button id="boton-encriptar" class="boton-encriptar">Encriptar</button>
+        </div>
+        
+    </section>
+    <section>
+        <h2>Texto Encriptado</h2>
+        <div class="box-style" id="resultado-encriptar">
+            <p id="texto-encriptado"></p>
+        </div>
+        <button class="boton-desencriptar" id="boton-desencriptar">Desencriptar</button>
+    </section>
+</main>
+<script src="scripts/main.js"></script>
+</body>
+</html>
